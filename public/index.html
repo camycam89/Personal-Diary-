@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Diary</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Personal Diary</h1>
+    <div id="entries"></div>
+
+    <form id="entryForm">
+        <input type="datetime-local" id="date" required>
+        <textarea id="text" placeholder="Write your diary entry here..." required></textarea>
+        <input type="text" id="category" placeholder="Category">
+        <button type="submit">Save Entry</button>
+    </form>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
